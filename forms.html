@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms Demo</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Forms Demo</h1>
-    <form action=""></form>
-</body>
+    <button>outside the form</button>
+    <form action="/tacos">
+      <p>
+        <label for="username">Enter a Username:</label>
+        <input type="text" name="" id="username" placeholder="username" />
+      </p>
+      <p>
+        <label for="password">Enter a password</label>
+        <input type="password" name="" id="password" />
+      </p>
+      <p>
+        <label for="color">Enter a color</label>
+        <input type="color" name="" id="color" />
+      </p>
+      <p>
+        <!-- Less common way to label an input   -->
+        <label>Enter a number
+            <input type="number" name="" id="" />
+        </label>
+      </p>
+      <p>
+        <label for="time">Enter a time</label>
+        <input type="time" name="" id="time" />
+      </p>
+      <button>Submit button inside the form</button>
+    </form>
+  </body>
 </html>

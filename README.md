@@ -8,5 +8,5 @@ Notes and links from the Colt Steele Udemy course [The Web Developer Bootcamp](h
     - [Named character references](https://html.spec.whatwg.org/multipage/named-characters.html)
 - [Emmet Documentation](https://docs.emmet.io/)
 - [Wikipedia table example](https://en.wikipedia.org/wiki/List_of_largest_cities#List)
-
+- [The Label element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
 
